@@ -7,7 +7,7 @@ This repository compains the whole cosmos protobuf files compiled for python and
 You can install this package directly from the repository by using:
 
 ```
-python -m pip install cosmospy-protobuf
+python -m pip install cosmospy_protobuf_celestia
 ```
 
 ## Usage
