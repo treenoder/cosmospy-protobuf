@@ -1,0 +1,49 @@
+{
+  "https://github.com/celestiaorg/celestia-app": {
+    "include": true,
+    "branch": "v3.x",
+    "paths": ["proto/celestia"]
+  },
+  "https://github.com/celestiaorg/cosmos-sdk": {
+    "include": true,
+    "branch": "release/v0.46.x-celestia",
+    "paths": ["proto/cosmos", "proto/tendermint"]
+  },
+  "https://github.com/celestiaorg/celestia-core": {
+    "include": true,
+    "branch": "v0.34.x-celestia",
+    "paths": ["proto/gogoproto"]
+  },
+  "https://github.com/protocolbuffers/protobuf": {
+    "include": true,
+    "branch": "main",
+    "paths": [
+      "src/google"
+    ]
+  },
+  "https://github.com/cosmos/ibc-go": {
+    "include": true,
+    "branch": "v4.4.2",
+    "paths": ["proto/ibc"]
+  },
+  "https://github.com/cosmos/cosmos-proto.git": {
+    "include": true,
+    "branch": "v1.0.0-beta.1",
+    "paths": ["proto/cosmos_proto"]
+  },
+  "https://github.com/regen-network/protobuf.git": {
+    "include": true,
+    "branch": "v1.3.3-alpha.regen.1",
+    "paths": ["gogoproto"]
+  },
+  "https://github.com/confio/ics23.git": {
+    "include": true,
+    "branch": "go/v0.9.0",
+    "paths": ["proofs.proto"]
+  },
+  "https://github.com/cosmos/interchain-security.git": {
+    "include": true,
+    "branch": "v2.0.0",
+    "paths": ["proto/interchain_security", "third_party/google"]
+  }
+}
