@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cosmospy_protobuf_celestia"
-version = "0.5.0"
+version = "0.5.2"
 description = "This package contains a compiled python version of all celestia protobuf files with their dependencies"
 authors = [
     { name = "ctrl-felix", email = "dev@ctrl-felix.de" },
@@ -23,8 +23,8 @@ dependencies = [
 dynamic = []
 
 [project.urls]
-"Homepage" = "https://github.com/ctrl-Felix/cosmospy-protobuf/"
-"Bug Tracker" = "https://github.com/ctrl-Felix/cosmospy-protobuf/issues"
+"Homepage" = "https://github.com/treenoder/cosmospy-protobuf"
+"Bug Tracker" = "https://github.com/treenoder/cosmospy-protobuf/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/celestia_proto"]
