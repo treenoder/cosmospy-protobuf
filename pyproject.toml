@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cosmospy_protobuf_celestia"
-version = "0.5.3"
+version = "0.5.4"
 description = "This package contains a compiled python version of all celestia protobuf files with their dependencies"
 authors = [
     { name = "ctrl-felix", email = "dev@ctrl-felix.de" },
@@ -18,7 +18,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "protobuf",
+    "protobuf >=5, <6",
 ]
 dynamic = []
 
