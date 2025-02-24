@@ -4,3 +4,4 @@ test/
 dist/
 cosmospy_protobuf.egg-info
 tmp/
+repo_cache/

@@ -4,22 +4,25 @@
     "branch": "v3.x",
     "paths": ["proto/celestia"]
   },
-  "https://github.com/celestiaorg/cosmos-sdk": {
+  "https://github.com/celestiaorg/cosmos-sdk.git": {
     "include": true,
     "branch": "release/v0.46.x-celestia",
-    "paths": ["proto/cosmos", "proto/tendermint"]
+    "paths": ["proto/cosmos", "proto/tendermint", "third_party/proto/google"]
   },
-  "https://github.com/celestiaorg/celestia-core": {
+  "https://github.com/cosmos/cosmos-sdk.git": {
+    "include": true,
+    "branch": "v0.45.16-ics-lsm",
+    "paths": ["proto/cosmos"]
+  },
+  "https://github.com/celestiaorg/celestia-core.git": {
     "include": true,
     "branch": "v0.34.x-celestia",
-    "paths": ["proto/gogoproto"]
+    "paths": ["proto/gogoproto", "proto/tendermint", "third_party/proto/gogoproto"]
   },
-  "https://github.com/protocolbuffers/protobuf": {
+  "https://github.com/cometbft/cometbft.git": {
     "include": true,
-    "branch": "main",
-    "paths": [
-      "src/google"
-    ]
+    "branch": "v0.34.29",
+    "paths": ["proto/tendermint"]
   },
   "https://github.com/cosmos/ibc-go": {
     "include": true,
