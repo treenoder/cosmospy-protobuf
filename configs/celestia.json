@@ -19,6 +19,11 @@
     "branch": "v0.34.x-celestia",
     "paths": ["proto/gogoproto", "proto/tendermint", "third_party/proto/gogoproto"]
   },
+  "https://github.com/celestiaorg/go-square.git": {
+    "include": true,
+    "branch": "main",
+    "paths": ["proto"]
+  },
   "https://github.com/cometbft/cometbft.git": {
     "include": true,
     "branch": "v0.34.29",
